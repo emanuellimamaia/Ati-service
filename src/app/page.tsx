@@ -1,8 +1,9 @@
 
 import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
+import Contact from "@/components/Features/Contact";
 import Features from "@/components/Features";
 import HeroSection from "@/components/Hero-section";
+import Parceiros from "@/components/Parceiros";
 
 
 export default function Home() {
@@ -10,8 +11,9 @@ export default function Home() {
     <main>
       <HeroSection></HeroSection>
       <Blog/>
+      <Parceiros/>
       <Features/>
-      <Contact/>
+      
     </main>
   )
 }

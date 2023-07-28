@@ -1,9 +1,10 @@
+import Link from "next/link";
 import Ok from "../icons/Ok";
 
 export default function Features() {
   return (
     <section className="text-gray-600  body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container  px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Recursos e benefícios</h1>
           {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p> */}
@@ -72,10 +73,13 @@ export default function Features() {
               </a>
             </nav>
           </div>
-
+            
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-gray-600 border-0 py-2 px-8 focus:outline-none hover:bg-[red] rounded text-lg">Contratar</button>
+        <div className="flex items-center justify-center">
+        <Link href="https://contate.me/atiservices" target="__blank" className="inline-flex text-white bg-red-700 hover:bg-gray-600  border-0 py-2 px-6 focus:outline-none  rounded text-lg">Orçamento</Link>
+        </div>
       </div>
+      
     </section>
   )
 }

@@ -19,9 +19,12 @@ export default function RootLayout({
   return (
     
     <html lang="pt-br">
-      <head>
-        <link rel="icon" href="/favicon.svg" />
-      </head>
+      <link
+    rel="icon"
+    href="/images/logo.svg"
+    type="image/<generated>"
+    sizes="<generated>"
+/>
       <body className={roboto.className}>
       <Header/>
         {children}

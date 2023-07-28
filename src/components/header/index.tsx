@@ -23,7 +23,7 @@ export default function Header () {
   
       <div className="w-72">
         
-        <Link href="https://contate.me/atiservices" target="__blank" className="inline-flex text-white bg-red-700 hover:bg-gray-600  border-0 py-2 px-6 focus:outline-none  rounded text-lg">Orçamento</Link>
+       
         
       </div>
     </div>

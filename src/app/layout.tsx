@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import Footer from '@/components/Footer'
 
+
+
+
 const roboto = Roboto({ weight: ["400","100","300"], subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -17,7 +20,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/favicon.svg" sizes="any" />
+      </head>
       <body className={roboto.className}>
       <Header/>
         {children}
